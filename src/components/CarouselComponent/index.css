@@ -1,0 +1,28 @@
+.carousel-container {
+  margin: 30px;
+}
+
+.carousel-img {
+  width: 100%;
+  height: 30vh;
+  object-fit: fill;
+}
+
+@media screen and (min-width: 768px) {
+  .carousel-img {
+    height: 50vh;
+  }
+}
+
+.heading {
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 22px;
+  color: rgb(79, 82, 82);
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 36px;
+  }
+}
